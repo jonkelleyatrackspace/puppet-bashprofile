@@ -1,0 +1,7 @@
+fixtures:
+  repositories:
+  forge_modules:
+    stdlib: "puppetlabs/stdlib"
+  symlinks:
+    bashprofile: "#{source_dir}"
+

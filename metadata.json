@@ -1,0 +1,30 @@
+{
+    "name": "cit-puppet_bashprofile",
+    "version": "0.0.1",
+    "author": "citops/unattributed",
+    "license": "Apache-2.0",
+    "summary": "A module for managing system wide bashprofile",
+    "source": "git@github.rackspace.com:crucial-infrastructure-tools/puppet-bashprofile.git",
+    "project_page": "https://github.rackspace.com/crucial-infrastructure-tools/puppet-bashprofile",
+    "issues_url": "https://github.rackspace.com/crucial-infrastructure-tools/puppet-bashprofile/issues",
+    "tags": [
+        "bash",
+        "bashprofile",
+        "ps1",
+        "bash_profile"
+    ],
+    "operatingsystem_support": [
+        {
+            "operatingsystem": "RedHat",
+            "operatingsystemrelease": [
+                "6.0"
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "name": "puppetlabs/stdlib",
+            "version_requirement": ">= 3.2.1"
+        }
+    ]
+}
